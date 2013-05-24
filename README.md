@@ -2,9 +2,15 @@ Guild Wars 2 JSON Api Library for Node.js
 =========================================
 
 
-**How To Use:**
-----------------
-Simple - Just require it and it returns an object with the following functions:
+**Install With NPM**
+--------------------
+```shell
+npm install gw2nodelib
+```
+
+**How To Use**
+---------------
+Simple - just require it and it returns an object with the below functions.
 
 
 **Functions**
