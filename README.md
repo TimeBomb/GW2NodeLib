@@ -18,7 +18,7 @@ Simple - just require it and it returns an object with the below functions.
 ```javascript
 API Key(function, [optional] object, [optional] boolean)
 ```
-This function is the same for all API keys. *(Scroll down to read more about API Keys.)* The first argument is a callback; it will be passed all of the JSON upon success. The second argument is an optional object of parameters, to be converted to query parameters and appended to the URL. The third argument can be passed as the second argument if you do need to pass query parameters. The third argument, if true, will cause the API request to bypass the cache and get the data from the official API. This will also update the cache.
+This function is the same for all API keys. *(Scroll down to read more about API Keys.)* The first argument is a callback; it will be passed all of the JSON upon success. The second argument is an optional object of parameters, to be converted to query parameters and appended to the URL. The third argument, if true, will cause the API request to bypass the cache and get the data from the official API. This will also update the cache. *(The third argument can be passed as the second argument if you do not need to pass query parameters.)*
 
 --
 
