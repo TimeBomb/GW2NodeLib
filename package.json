@@ -1,5 +1,5 @@
 {
-	"name": "GW2NodeLib",
+	"name": "gw2nodelib",
 	"version": "0.0.1",
 	"author": "TimeBomb",
 	"description": "Guild Wars 2 JSON Api Library for Node.js",
