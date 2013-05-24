@@ -42,10 +42,6 @@ List of API Keys
 		<td>/wvw/objective_names.json</td>
 	</tr>
 	<tr>
-		<td></td>
-		<td>/.json</td>
-	</tr>
-	<tr>
 		<td>items</td>
 		<td>/items.json</td>
 	</tr>
