@@ -17,6 +17,9 @@ var config = {
 		itemDetails: 'item_details.json',
 		recipes: 'recipes.json',
 		recipeDetails: 'recipe_details.json',
+		guildDetails: 'guild_details.json',
+		build: 'build.json',
+		colors: 'colors.json',
 	},
 };
 

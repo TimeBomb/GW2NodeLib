@@ -92,4 +92,16 @@ List of API Keys
 		<td>recipeDetails</td>
 		<td>/recipe_details.json</td>
 	</tr>
+	<tr>
+		<td>guildDetails</td>
+		<td>/guild_details.json</td>
+	</tr>
+	<tr>
+		<td>build</td>
+		<td>/build.json</td>
+	</tr>
+	<tr>
+		<td>colors</td>
+		<td>/colors_details.json</td>
+	</tr>
 </table>
