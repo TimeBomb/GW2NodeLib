@@ -8,6 +8,7 @@ var config = {
 	api : {
 		events: 'events.json',
 		eventNames: 'event_names.json',
+		eventDetails: 'event_details.json',
 		mapNames: 'map_names.json',
 		worldNames: 'world_names.json',
 		wvwMatches: 'wvw/matches.json',
@@ -20,6 +21,10 @@ var config = {
 		guildDetails: 'guild_details.json',
 		build: 'build.json',
 		colors: 'colors.json',
+		files: 'files.json',
+		continents: 'continents.json',
+		maps: 'maps.json',
+		map_floor: 'map_floor.json',
 	},
 };
 
@@ -159,7 +164,7 @@ module.exports = function() {
 				config.api[apiKey].cacheTime = seconds;
 				if (config.debug) console.log('setCacheTime successful; config.api.' + apiKey + ': ' + JSON.stringify(config.api[apiKey]));
 			}
-			
+
 			return true;
 		},
 
